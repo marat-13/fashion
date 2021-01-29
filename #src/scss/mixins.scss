@@ -30,7 +30,7 @@
 	}
 }
 
-//Адаптивное свойство
+//Адаптивный отступ
 @mixin adaptiv-value($indentType, $pcSize, $mobSize, $maxSize) {
 	$addSize: $pcSize - $mobSize;
 	@if $maxSize==1 {

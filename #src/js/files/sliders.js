@@ -56,10 +56,11 @@ if (sliderScrollItems.length > 0) {
 	}
 }
 
-
 function sliders_bild_callback(params) { }
 
-let sliderSlider = new Swiper('.slider', {
+
+
+let slider = new Swiper('.slider', {
 	/*
 	effect: 'fade',
 	autoplay: {
