@@ -85,6 +85,8 @@
 	// .content-footer__email
 
 	&__email {
+		display: flex;
+		flex-direction: column;
 	}
 
 	// .content-footer__icons
